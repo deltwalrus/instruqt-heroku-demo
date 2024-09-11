@@ -1,8 +1,17 @@
 version: "3"
-virtualbrowsers:
+containers:
 - name: heroku-account
-  url: https://dashboard.heroku.com/account/applications
+  image: gcr.io/instruqt/virtual-browser:prod
+  ports:
+  - 9000
+  environment:
+    url: https://dashboard.heroku.com/account/applications
+  memory: 4096
+  resources:
+    memory: 4096
 virtualmachines:
 - name: heroku-ubuntu
   image: ubuntu-os-cloud/ubuntu-2204-lts
   machine_type: n1-standard-1
+  memory: 4096
+  cpus: 1
