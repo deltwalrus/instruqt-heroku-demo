@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Update the package list
+sudo apt update
+
+# Install the required dependencies for adding a new repository
+sudo apt install -y curl
+
+# Download and add the Node.js PPA (NodeSource PPA for Node.js 20.x LTS)
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+
+# Install Node.js and npm
+sudo apt install -y nodejs
+
+# Verify the installation of Node.js and npm
+echo "Node.js version:"
+node -v
+
+echo "npm version:"
+npm -v
+
+echo "Node.js and npm have been installed successfully!"
+
+# Install Heroku CLI for the students so they can get started right away
+curl https://cli-assets.heroku.com/install.sh | sh
+
+# Pre-create code directory
+mkdir -p /root/src/node-js-getting-started
+chmod 774 /root/src/node-js-getting-started
+
+# git initialization
+git config --global user.email "instruqt@example.com"
+git config --global user.name "Instruqt User"

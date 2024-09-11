@@ -1,0 +1,37 @@
+slug: getting-started-heroku-nodejs
+id: kvjbvpdhksil
+revision: -62135596800
+title: Getting Started on Heroku with Node.js
+teaser: Deploy a Node.js app to Heroku in minutes!
+description: |-
+  This tutorial can help you deploy a Node.js app to Heroku in minutes.
+  # Welcome!
+
+  This tutorial assumes that you have:
+  - A verified Heroku account
+  - An Eco dynos plan subscription (recommended)
+
+  Node.js, `npm`, and the Heroku CLI are all pre-installed in this learning environment.
+icon: https://play.instruqt.com/assets/tracks/ksogktb7i8el/d23db15dd40ea8057b5a858902c3f8ac/assets/heroku-4.svg
+tags: []
+owner: heroku-demo
+developers:
+- jeff@instruqt.com
+instructors: []
+show_timer: true
+idle_timeout: 900
+timelimit: 7200
+lab_config:
+  overlay: false
+  width: 33
+  position: right
+  extend_ttl: 0
+  sidebar_enabled: true
+  hideStopButton: false
+  feedback_recap_enabled: true
+  feedback_tab_enabled: false
+  lab_v2: true
+  theme:
+    name: original
+  override_challenge_layout: false
+  loadingMessages: true

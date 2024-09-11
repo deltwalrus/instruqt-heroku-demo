@@ -1,0 +1,8 @@
+version: "3"
+virtualbrowsers:
+- name: heroku-account
+  url: https://dashboard.heroku.com/account/applications
+virtualmachines:
+- name: heroku-ubuntu
+  image: ubuntu-os-cloud/ubuntu-2204-lts
+  machine_type: n1-standard-1
