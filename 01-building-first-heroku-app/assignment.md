@@ -7,7 +7,6 @@ notes:
 - type: text
   contents: |-
     # Welcome to Heroku!
-    ## I added this subtitle using the GitHub integration! <3
 
     This tutorial can help you deploy a Node.js app to Heroku in minutes.
 
