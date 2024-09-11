@@ -18,7 +18,7 @@ tabs:
   title: "\U0001F4BB Terminal"
   type: terminal
   hostname: heroku-ubuntu
-  path: ?cmd=%2Fbin%2Fbash
+  cmd: /bin/bash
 - id: 1ehcwkxgnpry
   title: Code editor
   type: code
