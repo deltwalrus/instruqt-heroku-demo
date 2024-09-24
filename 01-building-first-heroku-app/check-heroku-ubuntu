@@ -1,1 +1,19 @@
-ffff
+#!/bin/bash
+set -euxo pipefail
+
+# URL of the web application
+URL="http://heroku-ubuntu:5001"
+
+# Function to check if the web app is responding
+check_webapp() {
+    RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" $URL)
+
+    if [ "$RESPONSE" -eq 200 ]; then
+        echo "Web app is running and responded with status code 200."
+    else
+        fail-message "Warning: Web app is not responding correctly. Status code: $RESPONSE"
+    fi
+}
+
+# Run the check
+check_webapp
