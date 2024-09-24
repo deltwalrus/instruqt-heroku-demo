@@ -12,6 +12,5 @@ containers:
 virtualmachines:
 - name: heroku-ubuntu
   image: ubuntu-os-cloud/ubuntu-2204-lts
-  machine_type: n1-standard-1
   memory: 4096
   cpus: 1
