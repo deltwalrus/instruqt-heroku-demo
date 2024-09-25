@@ -42,7 +42,10 @@ lab_config:
 Log into your Heroku account
 ===
 To log in to the Heroku CLI, use the `heroku login -i` command.
-When prompted,enter your username. For the password, you must enter your authorization token since MFA is enabled. To find this, go to the [button label="Heroku account tab"](tab-2) and click the pencil icon next to “Heroku CLI” in the “Authorizations” section
+```run
+heroku login -i
+```
+When prompted, enter your username. For the password, you must enter your authorization token since MFA is enabled. To find this, go to the [button label="Heroku account tab"](tab-2) and click the pencil icon next to “Heroku CLI” in the “Authorizations” section.
 
 ![Screenshot 2024-09-11 at 9.46.59 AM.png](https://play.instruqt.com/assets/tracks/ksogktb7i8el/add1a046e22adfa5b546c739d4f326a7/assets/Screenshot%202024-09-11%20at%209.46.59%E2%80%AFAM.png)
 
