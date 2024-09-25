@@ -7,7 +7,7 @@ notes:
 - type: text
   contents: |-
     # Welcome to Heroku!
-
+    ![Heroku logo](https://devcenter3.assets.heroku.com/article-images/1685984734-Screenshot-2023-06-05-at-1.05.26-PM.png)
     This tutorial can help you deploy a Node.js app to Heroku in minutes.
 
     The tutorial assumes that you have:
