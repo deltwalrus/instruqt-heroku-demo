@@ -30,7 +30,7 @@ lab_config:
   hideStopButton: false
   feedback_recap_enabled: true
   feedback_tab_enabled: false
-  lab_v2: true
+  lab_v2: false
   theme:
     name: original
   override_challenge_layout: false
